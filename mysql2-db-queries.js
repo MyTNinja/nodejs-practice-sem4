@@ -3,8 +3,8 @@ let sql = "";
 
 let con = mysql.createConnection({
     host: 'localhost',
-    user: '<user-name>',
-    password: '<password>',
+    user: 'root',
+    password: 'password',
     database: 'node'
 });
 
